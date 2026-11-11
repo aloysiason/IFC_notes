@@ -4,9 +4,7 @@ Langues étrangères appliquées — LEA
 
 [返回首页 / Accueil](../../../README.md)
 
-本页登记现有资料，不代表完整培养方案。课程名称沿用原标题或课表名称；中文译名不作为官方名称。
-
-Cette page recense les ressources disponibles, sans constituer une maquette complète. Les intitulés proviennent des dossiers, des fichiers ou du programme fourni.
+本页登记现有资料。课程名称沿用原标题或课表名称
 
 ## 课程与资料 / Cours et ressources
 

@@ -36,5 +36,5 @@ Ce fonds de ressources, destiné aux étudiants de l’Institut franco-chinois, 
 Cette table conserve, pour chaque fichier, les chemins avant et après classement, l’empreinte SHA-256 et la justification. Les étiquettes de contributeurs des anciens dossiers y restent consultables.
 
 ## 致谢
-23级Alicia, Stan, Mélissa, Léopold, Jocelyne, Romane, 许乐颜
+23级Alicia, Stan, Mélissa, Léopold, Jocelyne, Romane, 许乐颜, Philippe
 (排名不分先后, 纯靠作者回忆顺序)

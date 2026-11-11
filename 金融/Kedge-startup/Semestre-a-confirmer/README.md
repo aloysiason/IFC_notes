@@ -1,8 +1,8 @@
-# 金融 · 学期待确认 / Semestre à confirmer
+# 金融 · Kedge-startup · 学期待确认 / Semestre à confirmer
 
 Finance — Kedge-startup
 
-[返回首页 / Accueil](../../README.md)
+[返回首页 / Accueil](../../../README.md)
 
 本页登记现有资料，不代表完整培养方案。课程名称沿用原标题或课表名称；中文译名不作为官方名称。
 
@@ -94,7 +94,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 - Kedge-startup；FLE 按大三第一、二学期对应 S5/S6，其余待确认 / FLE : deux semestres de L3 ; autres affectations à confirmer。
 - Kedge-startup；课程标题明确，学期待确认 / Kedge-startup ; semestre à confirmer。
 
-原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
+原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
 
 Les chemins d’origine, les étiquettes de provenance et les empreintes des fichiers sont conservés dans cette table.
 

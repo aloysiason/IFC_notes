@@ -1,8 +1,8 @@
-# 法语-LEA · S5 / Semestre 5
+# 法语 · LEA · S5 / Semestre 5
 
 Langues étrangères appliquées — LEA
 
-[返回首页 / Accueil](../../README.md)
+[返回首页 / Accueil](../../../README.md)
 
 本页登记现有资料，不代表完整培养方案。课程名称沿用原标题或课表名称；中文译名不作为官方名称。
 
@@ -34,7 +34,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 - 商法：CM 正文标 S5，公司法配套文件按主题归类；S6 商法 CM 及商业合同、商事租赁按主题归类；其余待确认 / Droit : S5 explicite dans le CM, documents associés par thème ; S6 et supports de droit commercial ; autres semestres à confirmer。
 
-原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
+原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
 
 Les chemins d’origine, les étiquettes de provenance et les empreintes des fichiers sont conservés dans cette table.
 

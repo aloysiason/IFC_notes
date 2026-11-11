@@ -37,4 +37,4 @@ Cette table conserve, pour chaque fichier, les chemins avant et après classemen
 
 ## 致谢
 23级Alicia, Stan, Mélissa, Léopold, Jocelyne, Romane, 许乐颜
-(排名不分前后, 纯靠作者回忆顺序)
+(排名不分先后, 纯靠作者回忆顺序)

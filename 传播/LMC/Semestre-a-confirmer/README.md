@@ -1,8 +1,8 @@
-# 传播LMC · 学期待确认 / Semestre à confirmer
+# 传播 · LMC · 学期待确认 / Semestre à confirmer
 
 Communication — LMC
 
-[返回首页 / Accueil](../../README.md)
+[返回首页 / Accueil](../../../README.md)
 
 本页登记现有资料，不代表完整培养方案。课程名称沿用原标题或课表名称；中文译名不作为官方名称。
 
@@ -48,7 +48,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 - 课程按文件标题登记；学期待确认 / Intitulé du fichier ; semestre à confirmer。
 
-原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
+原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
 
 Les chemins d’origine, les étiquettes de provenance et les empreintes des fichiers sont conservés dans cette table.
 

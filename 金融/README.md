@@ -7,4 +7,4 @@
 Consulter les ressources par parcours et semestre ; leur état est indiqué dans chaque README semestriel.
 
 - [Kedge-startup](Kedge-startup/README.md)
-- [marseille-management](marseille-management/README.md)
+- [marseille-banque](marseille-banque/README.md)

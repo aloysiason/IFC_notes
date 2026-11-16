@@ -41,3 +41,8 @@ S5 et S6 désignent les cinquième et sixième semestres de licence. Les affecta
 [文件迁移清单.csv](_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)：逐文件记录原路径、新路径、SHA-256 和归类依据；原目录中的贡献者标签可据此找回。
 
 Cette table conserve, pour chaque fichier, les chemins avant et après classement, l’empreinte SHA-256 et la justification. Les étiquettes de contributeurs des anciens dossiers y restent consultables.
+
+## 致谢
+
+23级Alicia, Stan, Mélissa, Léopold, Jocelyne, Romane, 许乐颜, Philippe  
+(排名不分先后, 纯靠作者回忆顺序)

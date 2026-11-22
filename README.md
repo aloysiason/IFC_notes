@@ -4,7 +4,7 @@
 
 Ce fonds de ressources, destiné aux étudiants de l’Institut franco-chinois, est organisé par **filière → parcours (le cas échéant) → semestre → cours**. Il concerne principalement la troisième année de licence. LF et LEA sont regroupés sous Français. En Finance, les parcours actuellement représentés sont Kedge-startup et marseille-banque. La filière Communication comprend LMC et Infocom.
 
-# 写在前面
+## 写在前面
 
 我们似乎正在进入一个知识越来越容易获得的时代。
 

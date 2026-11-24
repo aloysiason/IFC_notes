@@ -52,6 +52,10 @@ IFC_notes · 中法学院学习资料开源项目
 | 传播 | LMC | [Semestre-a-confirmer](%E4%BC%A0%E6%92%AD/LMC/Semestre-a-confirmer/README.md) |
 | 传播 | Infocom | [S5](%E4%BC%A0%E6%92%AD/Infocom/S5/README.md) |
 | 传播 | Infocom | [S6](%E4%BC%A0%E6%92%AD/Infocom/S6/README.md) |
+| 数学 | — | [S5](%E6%95%B0%E5%AD%A6/S5/README.md) |
+| 数学 | — | [S6](%E6%95%B0%E5%AD%A6/S6/README.md) |
+| 数学 | — | [S9（M1S1）](%E6%95%B0%E5%AD%A6/S9%28M1S1%29/README.md) |
+| 数学 | — | [S10（M1S2）](%E6%95%B0%E5%AD%A6/S10%28M1S2%29/README.md) |
 
 ## 版权与使用声明 / Droits d’auteur et conditions d’utilisation
 

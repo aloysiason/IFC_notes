@@ -8,3 +8,4 @@ Consulter les ressources par parcours et semestre ; leur état est indiqué dans
 
 - [Kedge-startup](Kedge-startup/README.md)
 - [marseille-banque](marseille-banque/README.md)
+- [供应链 / Supply Chain](supply-chain/README.md)

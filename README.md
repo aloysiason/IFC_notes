@@ -35,8 +35,10 @@ IFC_notes · 中法学院学习资料开源项目
 
 | 专业 / Filière | 方向 / Parcours | 学期 / Semestre |
 |---|---|---|
+| 人管 | RH | [S1](%E4%BA%BA%E7%AE%A1/S1/README.md) |
 | 人管 | RH | [S5](%E4%BA%BA%E7%AE%A1/S5/README.md) |
 | 人管 | RH | [S6](%E4%BA%BA%E7%AE%A1/S6/README.md) |
+| 国管 | CAI | [S1](%E5%9B%BD%E7%AE%A1/S1/README.md) |
 | 国管 | CAI | [S5](%E5%9B%BD%E7%AE%A1/S5/README.md) |
 | 国管 | CAI | [S6](%E5%9B%BD%E7%AE%A1/S6/README.md) |
 | 法语 | LF | [S5](%E6%B3%95%E8%AF%AD/LF/S5/README.md) |
@@ -44,6 +46,7 @@ IFC_notes · 中法学院学习资料开源项目
 | 法语 | LEA | [S5](%E6%B3%95%E8%AF%AD/LEA/S5/README.md) |
 | 法语 | LEA | [S6](%E6%B3%95%E8%AF%AD/LEA/S6/README.md) |
 | 法语 | LEA | [Semestre-a-confirmer](%E6%B3%95%E8%AF%AD/LEA/Semestre-a-confirmer/README.md) |
+| 金融 | — | [S1](%E9%87%91%E8%9E%8D/S1/README.md) |
 | 金融 | Kedge-startup | [S5](%E9%87%91%E8%9E%8D/Kedge-startup/S5/README.md) |
 | 金融 | Kedge-startup | [S6](%E9%87%91%E8%9E%8D/Kedge-startup/S6/README.md) |
 | 金融 | Kedge-startup | [Semestre-a-confirmer](%E9%87%91%E8%9E%8D/Kedge-startup/Semestre-a-confirmer/README.md) |
@@ -51,9 +54,11 @@ IFC_notes · 中法学院学习资料开源项目
 | 金融 | marseille-banque | [S6](%E9%87%91%E8%9E%8D/marseille-banque/S6/README.md) |
 | 金融 | supply-chain | [S5](%E9%87%91%E8%9E%8D/supply-chain/S5/README.md) |
 | 金融 | supply-chain | [S6](%E9%87%91%E8%9E%8D/supply-chain/S6/README.md) |
+| 传播 | — | [S1](%E4%BC%A0%E6%92%AD/S1/README.md) |
 | 传播 | LMC | [Semestre-a-confirmer](%E4%BC%A0%E6%92%AD/LMC/Semestre-a-confirmer/README.md) |
 | 传播 | Infocom | [S5](%E4%BC%A0%E6%92%AD/Infocom/S5/README.md) |
 | 传播 | Infocom | [S6](%E4%BC%A0%E6%92%AD/Infocom/S6/README.md) |
+| 数学 | — | [S1](%E6%95%B0%E5%AD%A6/S1/README.md) |
 | 数学 | — | [S5](%E6%95%B0%E5%AD%A6/S5/README.md) |
 | 数学 | — | [S6](%E6%95%B0%E5%AD%A6/S6/README.md) |
 | 数学 | — | [S9（M1S1）](%E6%95%B0%E5%AD%A6/S9%28M1S1%29/README.md) |

@@ -6,5 +6,6 @@
 
 Consulter les ressources par parcours et semestre ; leur état est indiqué dans chaque README semestriel.
 
+- [S1 法语备考 / Français — semestre 1](S1/README.md)
 - [LMC](LMC/README.md)
 - [Infocom](Infocom/README.md)

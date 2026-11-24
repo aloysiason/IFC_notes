@@ -6,6 +6,7 @@
 
 Consulter les ressources par parcours et semestre ; leur état est indiqué dans chaque README semestriel.
 
+- [S1 法语备考 / Français — semestre 1](S1/README.md)
 - [Kedge-startup](Kedge-startup/README.md)
 - [marseille-banque](marseille-banque/README.md)
 - [供应链 / Supply Chain](supply-chain/README.md)

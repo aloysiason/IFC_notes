@@ -89,7 +89,7 @@ La mise à disposition des documents ne constitue ni un transfert des droits d�
 Alicia, 沾沾
 
 **特别感谢 / Remerciements particuliers**  
-Mélissa, Léopold, Jocelyne, Romane, Irène, Philippe, 数学系的故人们, 温带企鹅, Paul, Dora, 太阳花, 4+
+Mélissa, Léopold, Jocelyne, Romane, Irène, Philippe, 数学系的故人们, 温带企鹅, Paul, Dora, 太阳花, 鱼丸
 
 *排名不分先后，纯靠作者回忆顺序。*  
 *Sans ordre particulier, selon les souvenirs des auteurs.*

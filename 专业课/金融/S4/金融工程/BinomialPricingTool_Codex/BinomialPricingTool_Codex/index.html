@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OptionTree 教学工具</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-panel">
+          <div class="hero-layout">
+            <div class="hero-copy">
+              <p class="eyebrow">Binomial Pricing Studio</p>
+              <h1>期权定价：二叉树方法</h1>
+              <p class="hero-text">
+                用于课堂演示与课后练习，支持欧式、美式与障碍期权，并展示逐期复制法定价过程。（P.S. 仅供参考，若有错误，以课堂讲述为准）
+              </p>
+            </div>
+            <div class="formula-panel">
+              <h2>核心公式</h2>
+              <div class="formula-list">
+                <div class="formula-card">
+                  <span class="formula-title">风险中性概率</span>
+                  <code>p = (R - D) / (U - D)</code>
+                </div>
+                <div class="formula-card">
+                  <span class="formula-title">复利无风险增长因子</span>
+                  <code>R = e<sup>r</sup></code>
+                </div>
+                <div class="formula-card">
+                  <span class="formula-title">继续持有价值</span>
+                  <code>V = (p × V<sub>U</sub> + (1-p) × V<sub>D</sub>) / R</code>
+                </div>
+                <div class="formula-card">
+                  <span class="formula-title">复制组合</span>
+                  <code>m = (V<sub>U</sub> - V<sub>D</sub>) / (S<sub>U</sub> - S<sub>D</sub>)</code>
+                </div>
+                <div class="formula-card">
+                  <span class="formula-title">无风险资产头寸</span>
+                  <code>B = (V<sub>D</sub> - m × S<sub>D</sub>) / R</code>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <section class="panel control-panel">
+          <div class="panel-heading">
+            <h2>参数设定</h2>
+            <p>支持实时修改参数，观察二叉树、复制组合与提前行权决策的变化。</p>
+          </div>
+
+          <div class="preset-row">
+            <button class="preset-btn" data-preset="euro-call">欧式看涨示例</button>
+            <button class="preset-btn" data-preset="american-put">美式看跌示例</button>
+            <button class="preset-btn" data-preset="barrier-up-out">障碍期权示例</button>
+          </div>
+
+          <form id="pricing-form" class="input-grid">
+            <label>
+              <span>产品类别</span>
+              <select id="option-style">
+                <option value="european">欧式期权</option>
+                <option value="american">美式期权</option>
+                <option value="barrier">障碍期权</option>
+              </select>
+            </label>
+
+            <label>
+              <span>收益类型</span>
+              <select id="payoff-type">
+                <option value="call">看涨 Call</option>
+                <option value="put">看跌 Put</option>
+              </select>
+            </label>
+
+            <label>
+              <span>期数 N</span>
+              <input id="steps" type="number" min="1" max="25" step="1" value="1" />
+            </label>
+
+            <label>
+              <span>期初价格 S₀</span>
+              <input id="spot" type="number" min="0" step="0.0001" value="100" />
+            </label>
+
+            <label>
+              <span>行权价 X</span>
+              <input id="strike" type="number" min="0" step="0.0001" value="110" />
+            </label>
+
+            <label>
+              <span>上涨因子 U</span>
+              <input id="up-factor" type="number" min="0" step="0.0001" value="1.2712" />
+            </label>
+
+            <label>
+              <span>下跌因子 D</span>
+              <input id="down-factor" type="number" min="0" step="0.0001" value="0.8521" />
+            </label>
+
+            <label>
+              <span>每期复利因子 R</span>
+              <input id="growth-factor" type="number" min="0" step="0.0001" value="1.0618" />
+            </label>
+
+            <div id="barrier-fields" class="barrier-grid is-hidden">
+              <label>
+                <span>障碍方向</span>
+                <select id="barrier-direction">
+                  <option value="up">向上 Up</option>
+                  <option value="down">向下 Down</option>
+                </select>
+              </label>
+
+              <label>
+                <span>障碍类型</span>
+                <select id="barrier-mode">
+                  <option value="out">敲出 Out</option>
+                  <option value="in">敲入 In</option>
+                </select>
+              </label>
+
+              <label>
+                <span>障碍价 H</span>
+                <input id="barrier-level" type="number" min="0" step="0.0001" value="120" />
+              </label>
+
+              <label>
+                <span>障碍行权方式</span>
+                <select id="barrier-exercise">
+                  <option value="european">欧式</option>
+                  <option value="american">美式</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="primary-btn">计算并更新图示</button>
+              <p class="helper-text">
+                所有数字输入支持 4 位小数；无风险项请直接输入复利因子 <code>R = e<sup>r</sup></code>；障碍期权按离散节点监控。
+              </p>
+            </div>
+          </form>
+        </section>
+
+        <section class="panel result-panel">
+          <div class="panel-heading">
+            <h2>定价结果</h2>
+            <p>先看核心结论，再往下展开二叉树和每期复制法过程。</p>
+          </div>
+
+          <div id="warning-banner" class="warning-banner is-hidden"></div>
+
+          <section id="summary-cards" class="summary-grid"></section>
+
+          <section class="subsection">
+            <div class="subsection-header">
+              <h3>二叉树视图</h3>
+              <p>每个节点展示标的价格与期权价值；障碍期权会额外显示状态价值。</p>
+            </div>
+            <div id="tree-view" class="tree-view"></div>
+          </section>
+
+          <section class="subsection">
+            <div class="subsection-header">
+              <h3>逐期复制法明细</h3>
+              <p>从到期日向前反推，观察复制组合中的标的数量 m、无风险资产头寸B与提前行权判断。</p>
+            </div>
+            <div id="detail-view" class="detail-view"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>期权定价工具 · Binomial Tree</title>
+<style>
+:root {
+  --bg: #f5efe3;
+  --paper: rgba(255, 250, 242, 0.88);
+  --panel: rgba(255, 253, 248, 0.94);
+  --ink: #1f1d1a;
+  --muted: #665f55;
+  --accent: #9f4f29;
+  --accent-soft: rgba(159, 79, 41, 0.12);
+  --accent-strong: #7b3514;
+  --teal: #2a6c72;
+  --teal-soft: rgba(42, 108, 114, 0.12);
+  --gold: #c28b2f;
+  --line: rgba(74, 57, 36, 0.16);
+  --shadow: 0 20px 45px rgba(63, 44, 22, 0.12);
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(194, 139, 47, 0.18), transparent 26%),
+    radial-gradient(circle at right 16% top 18%, rgba(42, 108, 114, 0.14), transparent 24%),
+    linear-gradient(180deg, #f7f2e8 0%, #efe6d3 100%);
+  font-family: "Avenir Next", "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+}
+
+button, input, select { font: inherit; }
+
+.page-shell {
+  width: min(1480px, calc(100% - 40px));
+  margin: 32px auto 48px;
+}
+
+.hero { margin-bottom: 24px; }
+
+.hero-panel, .panel, .tree-column, .period-card {
+  background: var(--paper);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: var(--shadow);
+}
+
+.hero-panel {
+  padding: 34px 36px;
+  border-radius: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-panel::after {
+  content: "";
+  position: absolute;
+  inset: auto -12% -40% auto;
+  width: 220px; height: 220px;
+  background: radial-gradient(circle, rgba(194, 139, 47, 0.22), transparent 68%);
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.95fr);
+  gap: 28px;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--accent-strong);
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: clamp(34px, 4vw, 54px);
+  line-height: 1.02;
+}
+
+.hero-text, .panel-heading p, .subsection-header p,
+.helper-text, .summary-card small, .detail-empty { color: var(--muted); }
+
+.hero-text {
+  max-width: 60ch;
+  margin: 18px 0 0;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.formula-panel { padding: 4px 0 0; }
+
+.formula-panel h2, .panel-heading h2, .subsection-header h3 {
+  margin: 0;
+  font-family: "Palatino Linotype", Georgia, serif;
+}
+
+.formula-panel h2 { margin-bottom: 18px; font-size: 24px; }
+
+.formula-list { display: grid; gap: 12px; }
+
+.formula-card {
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(74, 57, 36, 0.08);
+}
+
+.formula-title {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--accent-strong);
+}
+
+.formula-card code { font-size: 14px; white-space: normal; }
+
+.workspace {
+  display: grid;
+  grid-template-columns: 420px minmax(0, 1fr);
+  gap: 24px;
+}
+
+.panel { border-radius: var(--radius-lg); padding: 24px; }
+
+.panel-heading { margin-bottom: 20px; }
+.panel-heading p { margin: 8px 0 0; line-height: 1.6; }
+
+.preset-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.preset-btn, .primary-btn {
+  border: none;
+  border-radius: 999px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.preset-btn {
+  background: rgba(255, 255, 255, 0.74);
+  color: var(--ink);
+  box-shadow: 0 8px 20px rgba(46, 33, 18, 0.08);
+}
+
+.preset-btn:hover, .primary-btn:hover { transform: translateY(-1px); }
+
+.primary-btn {
+  background: linear-gradient(135deg, var(--accent), #bd7032);
+  color: #fff9f4;
+  box-shadow: 0 12px 24px rgba(159, 79, 41, 0.28);
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.input-grid, .barrier-grid { display: grid; gap: 14px; }
+.input-grid label, .barrier-grid label { display: grid; gap: 7px; }
+.input-grid span, .barrier-grid span { font-size: 14px; color: var(--muted); }
+
+.input-grid input, .input-grid select,
+.barrier-grid input, .barrier-grid select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(74, 57, 36, 0.16);
+  background: rgba(255, 255, 255, 0.76);
+  color: var(--ink);
+}
+
+.input-grid input:focus, .input-grid select:focus,
+.barrier-grid input:focus, .barrier-grid select:focus {
+  outline: 2px solid rgba(159, 79, 41, 0.2);
+  border-color: rgba(159, 79, 41, 0.36);
+}
+
+.barrier-grid {
+  margin-top: 4px;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: rgba(42, 108, 114, 0.08);
+  border: 1px dashed rgba(42, 108, 114, 0.18);
+}
+
+.is-hidden { display: none !important; }
+
+.form-actions { margin-top: 8px; }
+
+.helper-text {
+  margin: 12px 0 0;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+.warning-banner {
+  margin-bottom: 20px;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: rgba(194, 139, 47, 0.16);
+  border: 1px solid rgba(194, 139, 47, 0.28);
+  color: #6b4a0a;
+  line-height: 1.6;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+}
+
+.summary-card {
+  padding: 18px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(74, 57, 36, 0.08);
+}
+
+.summary-card small { display: block; margin-bottom: 10px; font-size: 13px; }
+
+.summary-card strong {
+  display: block;
+  font-size: clamp(22px, 2.2vw, 30px);
+  font-family: "Palatino Linotype", Georgia, serif;
+}
+
+.subsection { margin-top: 28px; }
+.subsection-header { margin-bottom: 14px; }
+.subsection-header p { margin: 8px 0 0; line-height: 1.6; }
+
+.tree-view {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.tree-column {
+  flex: 0 0 220px;
+  border-radius: 22px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 251, 245, 0.68)),
+    var(--paper);
+  animation: rise-in 420ms ease both;
+}
+
+.tree-column h4 { margin: 0; font-size: 16px; color: var(--accent-strong); }
+.tree-column small { color: var(--muted); }
+
+.node-card {
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(74, 57, 36, 0.08);
+}
+
+.node-card .node-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.node-price {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-family: "Palatino Linotype", Georgia, serif;
+}
+
+.node-metric {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 0;
+  border-top: 1px dashed rgba(74, 57, 36, 0.12);
+  font-size: 14px;
+}
+
+.node-metric:first-of-type { border-top: none; padding-top: 0; }
+.metric-label { color: var(--muted); }
+.metric-value { font-weight: 600; }
+
+.detail-view { display: grid; gap: 14px; }
+
+.period-card { border-radius: 22px; overflow: hidden; }
+
+.period-card summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.period-card summary::-webkit-details-marker { display: none; }
+.period-card[open] summary { border-bottom: 1px solid rgba(74, 57, 36, 0.08); }
+.period-card summary strong { font-size: 18px; font-family: "Palatino Linotype", Georgia, serif; }
+.period-card summary span { color: var(--muted); font-size: 14px; }
+
+.period-table-wrap { overflow-x: auto; }
+
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1180px;
+  background: rgba(255, 255, 255, 0.52);
+}
+
+.detail-table th, .detail-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(74, 57, 36, 0.08);
+  text-align: left;
+  vertical-align: top;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.detail-table th {
+  position: sticky;
+  top: 0;
+  background: rgba(247, 240, 229, 0.96);
+  color: var(--accent-strong);
+  z-index: 1;
+}
+
+.state-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.state-chip.alt { background: var(--teal-soft); color: var(--teal); }
+
+.formula-stack { display: grid; gap: 6px; color: var(--muted); }
+
+.detail-empty {
+  padding: 18px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(74, 57, 36, 0.08);
+}
+
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 1080px) {
+  .workspace { grid-template-columns: 1fr; }
+  .hero-layout { grid-template-columns: 1fr; }
+  .page-shell { width: min(100% - 24px, 1480px); margin-top: 18px; }
+}
+
+@media (max-width: 720px) {
+  .page-shell { width: calc(100% - 18px); }
+  .hero-panel, .panel { padding: 18px; }
+  .formula-panel { padding-top: 0; }
+  .summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tree-column { flex-basis: 86vw; }
+}
+</style>
+</head>
+<body>
+<div class="page-shell">
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-panel">
+      <div class="hero-layout">
+        <div>
+          <p class="eyebrow">期权定价模型</p>
+          <h1>二叉树期权<br>定价工具</h1>
+          <p class="hero-text">
+            基于 Cox–Ross–Rubinstein（CRR）二叉树模型，支持欧式与美式期权、含障碍条件，
+            逐步展示每个节点的标的价格、期权价值与对冲比率（Delta），帮助您直观理解离散时间定价过程。
+          </p>
+        </div>
+        <div class="formula-panel">
+          <h2>核心公式</h2>
+          <div class="formula-list">
+            <div class="formula-card">
+              <span class="formula-title">上涨 / 下跌因子</span>
+              <code>u = e^(σ√Δt)　　d = 1/u</code>
+            </div>
+            <div class="formula-card">
+              <span class="formula-title">风险中性概率</span>
+              <code>p = (e^(rΔt) − d) / (u − d)</code>
+            </div>
+            <div class="formula-card">
+              <span class="formula-title">节点期权价值（欧式）</span>
+              <code>V = e^(−rΔt) · [p·V_u + (1−p)·V_d]</code>
+            </div>
+            <div class="formula-card">
+              <span class="formula-title">美式提前行权</span>
+              <code>V = max(内在价值, 持有价值)</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WORKSPACE ── -->
+  <div class="workspace">
+
+    <!-- LEFT: Input Panel -->
+    <aside>
+      <div class="panel">
+        <div class="panel-heading">
+          <h2>参数设置</h2>
+          <p>调整以下参数，或选择预设场景快速开始。</p>
+        </div>
+
+        <!-- Presets -->
+        <div class="preset-row">
+          <button class="preset-btn" onclick="loadPreset('atm')">平值看涨</button>
+          <button class="preset-btn" onclick="loadPreset('put')">实值看跌</button>
+          <button class="preset-btn" onclick="loadPreset('american')">美式看涨</button>
+          <button class="preset-btn" onclick="loadPreset('barrier')">障碍期权</button>
+        </div>
+
+        <!-- Inputs -->
+        <div class="input-grid">
+          <label>
+            <span>标的资产现价 (S₀)</span>
+            <input id="inp-S" type="number" value="100" step="1" min="0.01" />
+          </label>
+          <label>
+            <span>行权价 (K)</span>
+            <input id="inp-K" type="number" value="100" step="1" min="0.01" />
+          </label>
+          <label>
+            <span>无风险利率 r（年化，小数）</span>
+            <input id="inp-r" type="number" value="0.05" step="0.005" min="0" max="1" />
+          </label>
+          <label>
+            <span>波动率 σ（年化，小数）</span>
+            <input id="inp-sigma" type="number" value="0.20" step="0.01" min="0.001" max="5" />
+          </label>
+          <label>
+            <span>到期时间 T（年）</span>
+            <input id="inp-T" type="number" value="1" step="0.25" min="0.01" />
+          </label>
+          <label>
+            <span>步数 N（≤ 8 时显示树形图）</span>
+            <input id="inp-N" type="number" value="4" step="1" min="1" max="52" />
+          </label>
+          <label>
+            <span>期权类型</span>
+            <select id="inp-type">
+              <option value="call">看涨期权 Call</option>
+              <option value="put">看跌期权 Put</option>
+            </select>
+          </label>
+          <label>
+            <span>行权风格</span>
+            <select id="inp-style">
+              <option value="european">欧式 European</option>
+              <option value="american">美式 American</option>
+            </select>
+          </label>
+          <label>
+            <span>连续分红率 q</span>
+            <input id="inp-q" type="number" value="0" step="0.005" min="0" max="1" />
+          </label>
+        </div>
+
+        <!-- Barrier toggle -->
+        <div style="margin-top:14px; display:flex; align-items:center; gap:10px;">
+          <input type="checkbox" id="chk-barrier" style="width:18px;height:18px;accent-color:var(--teal);cursor:pointer;" onchange="toggleBarrier()" />
+          <label for="chk-barrier" style="cursor:pointer; font-size:14px; color:var(--muted);">启用障碍条件</label>
+        </div>
+
+        <div id="barrier-section" class="barrier-grid is-hidden" style="margin-top:12px;">
+          <label>
+            <span>障碍类型</span>
+            <select id="inp-btype">
+              <option value="up-and-out">上敲出 Up-and-Out</option>
+              <option value="down-and-out">下敲出 Down-and-Out</option>
+              <option value="up-and-in">上敲入 Up-and-In</option>
+              <option value="down-and-in">下敲入 Down-and-In</option>
+            </select>
+          </label>
+          <label>
+            <span>障碍价格 H</span>
+            <input id="inp-barrier" type="number" value="120" step="1" min="0.01" />
+          </label>
+        </div>
+
+        <div class="form-actions" style="margin-top:20px;">
+          <button class="primary-btn" onclick="price()">计算期权价格 →</button>
+        </div>
+        <p class="helper-text">结果包含完整的二叉树节点数据与每一步的 Delta 对冲比率。</p>
+      </div>
+    </aside>
+
+    <!-- RIGHT: Results Panel -->
+    <main id="results-panel">
+      <div class="panel">
+        <div id="initial-placeholder" style="padding:40px 0; text-align:center; color:var(--muted);">
+          <svg width="56" height="56" viewBox="0 0 56 56" fill="none" style="margin-bottom:16px; opacity:.35;">
+            <circle cx="28" cy="28" r="27" stroke="#9f4f29" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <path d="M18 36 L28 20 L38 36" stroke="#9f4f29" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+            <circle cx="28" cy="20" r="2.5" fill="#9f4f29"/>
+          </svg>
+          <p style="margin:0; font-size:16px;">设置好参数后，点击"计算期权价格"</p>
+        </div>
+
+        <div id="output" class="is-hidden">
+          <!-- Summary cards -->
+          <div id="warning-area"></div>
+          <div class="summary-grid" id="summary-grid"></div>
+
+          <!-- Tree -->
+          <div class="subsection" id="tree-section">
+            <div class="subsection-header">
+              <h3>二叉树节点图</h3>
+              <p id="tree-desc"></p>
+            </div>
+            <div class="tree-view" id="tree-view"></div>
+          </div>
+
+          <!-- Detail table -->
+          <div class="subsection">
+            <div class="subsection-header">
+              <h3>逐步展开明细</h3>
+              <p>点击任意一期展开该期所有节点的完整计算细节。</p>
+            </div>
+            <div class="detail-view" id="detail-view"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+// ─── Utility ───────────────────────────────────────────────────────────────
+const $ = id => document.getElementById(id);
+const fmt = (v, d=4) => (+v).toLocaleString('zh-CN', {minimumFractionDigits: d, maximumFractionDigits: d});
+const fmt2 = v => fmt(v, 2);
+
+function toggleBarrier() {
+  $('barrier-section').classList.toggle('is-hidden', !$('chk-barrier').checked);
+}
+
+function loadPreset(name) {
+  const presets = {
+    atm:      {S:100, K:100, r:0.05, sigma:0.20, T:1,   N:4, type:'call', style:'european', q:0,    barrier:false},
+    put:      {S:95,  K:105, r:0.05, sigma:0.25, T:0.5, N:4, type:'put',  style:'european', q:0,    barrier:false},
+    american: {S:100, K:100, r:0.05, sigma:0.30, T:1,   N:5, type:'call', style:'american', q:0.03, barrier:false},
+    barrier:  {S:100, K:100, r:0.05, sigma:0.20, T:1,   N:4, type:'call', style:'european', q:0,    barrier:true, btype:'up-and-out', H:120},
+  };
+  const p = presets[name];
+  $('inp-S').value = p.S; $('inp-K').value = p.K;
+  $('inp-r').value = p.r; $('inp-sigma').value = p.sigma;
+  $('inp-T').value = p.T; $('inp-N').value = p.N;
+  $('inp-type').value = p.type; $('inp-style').value = p.style;
+  $('inp-q').value = p.q;
+  $('chk-barrier').checked = p.barrier;
+  if (p.barrier) { $('inp-btype').value = p.btype; $('inp-barrier').value = p.H; }
+  toggleBarrier();
+  price();
+}
+
+// ─── Binomial Tree Engine ──────────────────────────────────────────────────
+function buildTree(S,K,r,sigma,T,N,type,style,q,useBarrier,btype,H) {
+  const dt = T/N;
+  const u  = Math.exp(sigma * Math.sqrt(dt));
+  const d  = 1/u;
+  const disc = Math.exp(-r*dt);
+  const p  = (Math.exp((r-q)*dt) - d) / (u - d);
+
+  // Intrinsic value helper
+  const intrinsic = (S, knocked) => {
+    if (knocked) return 0;
+    return type === 'call' ? Math.max(S-K,0) : Math.max(K-S,0);
+  };
+
+  // Check barrier knock
+  const isKnocked = (price) => {
+    if (!useBarrier) return false;
+    if (btype === 'up-and-out')   return price >= H;
+    if (btype === 'down-and-out') return price <= H;
+    return false; // knock-in handled at terminal
+  };
+
+  const isKnockIn = btype && btype.includes('in');
+
+  // Build stock price lattice  [i][j] where i=period, j=up-moves (0..i)
+  const S_grid = [];
+  for (let i=0; i<=N; i++) {
+    S_grid.push([]);
+    for (let j=0; j<=i; j++) {
+      S_grid[i].push( S * Math.pow(u, j) * Math.pow(d, i-j) );
+    }
+  }
+
+  // Option value lattice
+  const V = [];
+  for (let i=0; i<=N; i++) V.push(new Array(i+1).fill(0));
+
+  // Terminal payoffs
+  for (let j=0; j<=N; j++) {
+    const sp = S_grid[N][j];
+    if (isKnockIn) {
+      // up-and-in: knocked if ever reached H; approx: track via path count
+      // simplified: check terminal price crossing (exact only for single-barrier terminal check)
+      const triggered = (btype==='up-and-in') ? sp >= H : sp <= H;
+      V[N][j] = triggered ? intrinsic(sp, false) : 0;
+    } else {
+      V[N][j] = intrinsic(sp, isKnocked(sp));
+    }
+  }
+
+  // Backward induction
+  const knocked_grid = [];
+  for (let i=0; i<=N; i++) knocked_grid.push(new Array(i+1).fill(false));
+  for (let j=0; j<=N; j++) knocked_grid[N][j] = isKnocked(S_grid[N][j]);
+
+  for (let i=N-1; i>=0; i--) {
+    for (let j=0; j<=i; j++) {
+      const sp = S_grid[i][j];
+      if (!isKnockIn && isKnocked(sp)) { V[i][j]=0; knocked_grid[i][j]=true; continue; }
+      const hold = disc * (p*V[i+1][j+1] + (1-p)*V[i+1][j]);
+      if (style === 'american') {
+        V[i][j] = Math.max(hold, intrinsic(sp, false));
+      } else {
+        V[i][j] = hold;
+      }
+    }
+  }
+
+  // Delta at each node (except terminal)
+  const delta_grid = [];
+  for (let i=0; i<=N; i++) delta_grid.push(new Array(i+1).fill(null));
+  for (let i=0; i<N; i++) {
+    for (let j=0; j<=i; j++) {
+      const dS = S_grid[i+1][j+1] - S_grid[i+1][j];
+      const dV = V[i+1][j+1]  - V[i+1][j];
+      delta_grid[i][j] = dS !== 0 ? dV/dS : 0;
+    }
+  }
+
+  return { S_grid, V, delta_grid, knocked_grid, u, d, p, dt, disc };
+}
+
+// ─── Main price() ──────────────────────────────────────────────────────────
+function price() {
+  const S     = parseFloat($('inp-S').value);
+  const K     = parseFloat($('inp-K').value);
+  const r     = parseFloat($('inp-r').value);
+  const sigma = parseFloat($('inp-sigma').value);
+  const T     = parseFloat($('inp-T').value);
+  const N     = parseInt($('inp-N').value);
+  const type  = $('inp-type').value;
+  const style = $('inp-style').value;
+  const q     = parseFloat($('inp-q').value);
+  const useBarrier = $('chk-barrier').checked;
+  const btype = $('inp-btype').value;
+  const H     = parseFloat($('inp-barrier').value);
+
+  // Warnings
+  const warnEl = $('warning-area');
+  warnEl.innerHTML = '';
+  if (N > 8) {
+    warnEl.innerHTML = `<div class="warning-banner">⚠️ 步数 N = ${N}，树形图将被隐藏（仅显示 N ≤ 8）。明细表仍完整呈现每一期数据。</div>`;
+  }
+  if (useBarrier && btype.includes('in')) {
+    warnEl.innerHTML += `<div class="warning-banner">ℹ️ 敲入期权采用近似方法（仅检验到期日价格是否触及障碍），精确定价需蒙特卡洛或连续障碍调整。</div>`;
+  }
+
+  const tree = buildTree(S,K,r,sigma,T,N,type,style,q,useBarrier,btype,H);
+  const { S_grid, V, delta_grid, knocked_grid, u, d, p, dt } = tree;
+
+  // ── Summary cards ──
+  const optionPrice = V[0][0];
+  const delta0 = delta_grid[0][0];
+  const gamma0 = N >= 2 ? (delta_grid[1][1] - delta_grid[1][0]) / (S_grid[1][1] - S_grid[1][0]) : null;
+
+  const bsPrice = blackScholes(S,K,r,sigma,T,type,q);
+
+  $('summary-grid').innerHTML = `
+    <div class="summary-card">
+      <small>期权价格（二叉树）</small>
+      <strong>¥ ${fmt2(optionPrice)}</strong>
+    </div>
+    <div class="summary-card">
+      <small>B-S 参考价</small>
+      <strong>¥ ${fmt2(bsPrice)}</strong>
+    </div>
+    <div class="summary-card">
+      <small>Delta Δ</small>
+      <strong>${fmt(delta0)}</strong>
+    </div>
+    ${gamma0 !== null ? `<div class="summary-card"><small>Gamma Γ（近似）</small><strong>${fmt(gamma0,6)}</strong></div>` : ''}
+    <div class="summary-card">
+      <small>上涨因子 u</small>
+      <strong>${fmt(u)}</strong>
+    </div>
+    <div class="summary-card">
+      <small>风险中性概率 p</small>
+      <strong>${fmt(p)}</strong>
+    </div>
+  `;
+
+  // ── Tree View (N ≤ 8) ──
+  const treeView = $('tree-view');
+  const treeSection = $('tree-section');
+  $('tree-desc').textContent = `共 ${N} 步，每列为一个时间节点，从左（t=0）到右（t=T）。`;
+
+  if (N <= 8) {
+    treeSection.classList.remove('is-hidden');
+    treeView.innerHTML = '';
+    for (let i=0; i<=N; i++) {
+      const col = document.createElement('div');
+      col.className = 'tree-column';
+      col.style.animationDelay = `${i*60}ms`;
+      const t = (i*dt).toFixed(4)*1;
+      col.innerHTML = `<h4>t = ${+t.toFixed(3)}</h4><small>第 ${i} 步，${S_grid[i].length} 个节点</small>`;
+      // Show nodes from top (highest price) to bottom
+      for (let j=i; j>=0; j--) {
+        const sp = S_grid[i][j];
+        const vp = V[i][j];
+        const dlt = delta_grid[i][j];
+        const isK = knocked_grid[i][j];
+        const card = document.createElement('div');
+        card.className = 'node-card';
+        card.innerHTML = `
+          <div class="node-title">
+            <span>↑${j} ↓${i-j}</span>
+            ${isK ? '<span class="state-chip alt">触及障碍</span>' : ''}
+          </div>
+          <span class="node-price">S = ${fmt2(sp)}</span>
+          <div class="node-metric"><span class="metric-label">期权值 V</span><span class="metric-value">${fmt2(vp)}</span></div>
+          ${dlt !== null ? `<div class="node-metric"><span class="metric-label">Delta</span><span class="metric-value">${fmt(dlt,4)}</span></div>` : ''}
+        `;
+        col.appendChild(card);
+      }
+      treeView.appendChild(col);
+    }
+  } else {
+    treeSection.classList.add('is-hidden');
+  }
+
+  // ── Detail Table ──
+  const detailView = $('detail-view');
+  detailView.innerHTML = '';
+  for (let i=0; i<=N; i++) {
+    const details = document.createElement('details');
+    details.className = 'period-card';
+    if (i===0) details.open = true;
+    const nodesCount = S_grid[i].length;
+    const tLabel = +(i*dt).toFixed(4);
+    details.innerHTML = `
+      <summary>
+        <strong>第 ${i} 步 — t = ${tLabel}</strong>
+        <span>${nodesCount} 个节点</span>
+      </summary>
+      <div class="period-table-wrap">
+        <table class="detail-table">
+          <thead><tr>
+            <th>节点</th>
+            <th>上涨次数 j</th>
+            <th>标的价格 S</th>
+            <th>状态</th>
+            <th>期权价值 V</th>
+            <th>内在价值</th>
+            <th>时间价值</th>
+            <th>Delta Δ</th>
+            <th>计算过程</th>
+          </tr></thead>
+          <tbody>${buildTableRows(i, S_grid, V, delta_grid, knocked_grid, K, type, style, useBarrier, btype, p, tree.disc)}</tbody>
+        </table>
+      </div>`;
+    detailView.appendChild(details);
+  }
+
+  $('initial-placeholder').classList.add('is-hidden');
+  $('output').classList.remove('is-hidden');
+}
+
+function buildTableRows(i, S_grid, V, delta_grid, knocked_grid, K, type, style, useBarrier, btype, p, disc) {
+  let html = '';
+  for (let j=i; j>=0; j--) {
+    const sp = S_grid[i][j];
+    const vp = V[i][j];
+    const isK = knocked_grid[i][j];
+    const iv = type==='call' ? Math.max(sp-K,0) : Math.max(K-sp,0);
+    const tv = Math.max(0, vp - iv);
+    const dlt = delta_grid[i][j];
+
+    let stateHtml = '';
+    if (isK) stateHtml = '<span class="state-chip alt">触及障碍</span>';
+    else if (type==='call' && sp>K) stateHtml = '<span class="state-chip">实值 ITM</span>';
+    else if (type==='put'  && sp<K) stateHtml = '<span class="state-chip">实值 ITM</span>';
+    else stateHtml = '<span class="state-chip alt">虚值/平值</span>';
+
+    let formulaHtml = '';
+    if (i < S_grid.length-1) {
+      const Vu = V[i+1] ? V[i+1][j+1] : null;
+      const Vd = V[i+1] ? V[i+1][j] : null;
+      if (Vu !== null && Vd !== null) {
+        const hold = disc * (p*Vu + (1-p)*Vd);
+        formulaHtml = `
+          <div class="formula-stack">
+            <span>持有 = e<sup>−rΔt</sup>[p·${fmt2(Vu)} + (1−p)·${fmt2(Vd)}]</span>
+            <span>= ${fmt2(hold)}</span>
+            ${style==='american' ? `<span>内在 = ${fmt2(iv)}，取较大值</span>` : ''}
+          </div>`;
+      }
+    } else {
+      formulaHtml = `<span style="color:var(--muted)">到期日：max(S−K, 0) = ${fmt2(iv)}</span>`;
+    }
+
+    html += `<tr>
+      <td>j=${j}, ↓${i-j}</td>
+      <td>${j}</td>
+      <td><strong>${fmt2(sp)}</strong></td>
+      <td>${stateHtml}</td>
+      <td><strong>${fmt2(vp)}</strong></td>
+      <td>${fmt2(iv)}</td>
+      <td>${fmt2(tv)}</td>
+      <td>${dlt !== null ? fmt(dlt,4) : '—'}</td>
+      <td>${formulaHtml}</td>
+    </tr>`;
+  }
+  return html;
+}
+
+// ─── Black-Scholes (reference) ─────────────────────────────────────────────
+function blackScholes(S,K,r,sigma,T,type,q=0) {
+  if (T <= 0) return type==='call' ? Math.max(S-K,0) : Math.max(K-S,0);
+  const d1 = (Math.log(S/K) + (r-q+0.5*sigma*sigma)*T) / (sigma*Math.sqrt(T));
+  const d2 = d1 - sigma*Math.sqrt(T);
+  const N  = x => { // standard normal CDF
+    const t = 1/(1+0.2316419*Math.abs(x));
+    const poly = t*(0.319381530 + t*(-0.356563782 + t*(1.781477937 + t*(-1.821255978 + t*1.330274429))));
+    const pdf  = Math.exp(-0.5*x*x)/Math.sqrt(2*Math.PI);
+    const cdf  = 1 - pdf*poly;
+    return x>=0 ? cdf : 1-cdf;
+  };
+  if (type==='call') return S*Math.exp(-q*T)*N(d1) - K*Math.exp(-r*T)*N(d2);
+  return K*Math.exp(-r*T)*N(-d2) - S*Math.exp(-q*T)*N(-d1);
+}
+
+// Auto-price on load
+window.addEventListener('load', price);
+</script>
+</body>
+</html>

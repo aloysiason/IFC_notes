@@ -12,7 +12,7 @@ Classement selon les cours S01 du tableau Bachelor 3, 2025–2026. Les intitulé
 |---|---|---:|---|
 | Analysis and Risk Management in the Banking Sector | 银行业分析与风险管理 | 6 | 含 2020—2021、2021—2022 试题 / sujets 2020–2021 et 2021–2022 |
 | Banking marketing strategy | 银行营销战略 | 9 | 含 2022—2023、2024 材料 / documents 2022–2023 et 2024 |
-| Strategy and business Diagnostic | 战略与企业诊断 | 3 | 含 2022—2023 试题 / sujet 2022–2023 |
+| Strategy and business Diagnostic | 战略与企业诊断 | 1 | 含 2022—2023 试题 / sujet 2022–2023 |
 | FLE : French as a Foreign Language — KB3 — IFC (1) | 法语作为外语（1） | 1 | 2024—2025 文件 / fichier 2024–2025 |
 
 ## 课表覆盖 / Couverture du tableau

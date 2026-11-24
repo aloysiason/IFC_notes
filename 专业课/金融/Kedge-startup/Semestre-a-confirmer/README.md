@@ -22,7 +22,6 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 | [Ethical Finance](Ethical%20Finance) | 1 |
 | [FLE](FLE) | 1 |
 | [Memoire interculturel复习主题](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98) | 14 |
-| [Simulation de gestion](Simulation%20de%20gestion) | 3 |
 | [Stratégie et diagnostic d’entreprise](Strat%C3%A9gie%20et%20diagnostic%20d%E2%80%99entreprise) | 1 |
 | [计量备考](%E8%AE%A1%E9%87%8F%E5%A4%87%E8%80%83) | 3 |
 | [项目通用资料](%E9%A1%B9%E7%9B%AE%E9%80%9A%E7%94%A8%E8%B5%84%E6%96%99) | 2 |
@@ -67,12 +66,6 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 - [Oral révision documents - Ateliers Interculturels/Module - Les réseau sociaux.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20r%C3%A9vision%20documents%20-%20Ateliers%20Interculturels/Module%20-%20Les%20r%C3%A9seau%20sociaux.pdf)
 - [Oral révision documents - Ateliers Interculturels/Module - Luxe .pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20r%C3%A9vision%20documents%20-%20Ateliers%20Interculturels/Module%20-%20Luxe%20.pdf)
 - [Oral révision documents - Ateliers Interculturels/Module- Système administrative français.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20r%C3%A9vision%20documents%20-%20Ateliers%20Interculturels/Module-%20Syst%C3%A8me%20administrative%20fran%C3%A7ais.pdf)
-
-### Simulation de gestion
-
-- [simulation案例内容.pdf](Simulation%20de%20gestion/simulation%E6%A1%88%E4%BE%8B%E5%86%85%E5%AE%B9.pdf)
-- [官方评分标准.pdf](Simulation%20de%20gestion/%E5%AE%98%E6%96%B9%E8%AF%84%E5%88%86%E6%A0%87%E5%87%86.pdf)
-- [课程分数占比.docx](Simulation%20de%20gestion/%E8%AF%BE%E7%A8%8B%E5%88%86%E6%95%B0%E5%8D%A0%E6%AF%94.docx)
 
 ### Stratégie et diagnostic d’entreprise
 

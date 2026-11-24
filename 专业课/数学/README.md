@@ -10,7 +10,7 @@ Ce dossier rassemble les ressources de mathématiques par semestre et code d’U
 
 | 阶段 / Niveau | 学期 / Semestre | 课程数 / UE |
 |---|---|---:|
-| Licence 1 | [S1](S1/README.md) | 1 |
+| Licence 1 | [S1 · 公共法语 / Français](../../%E6%B3%95%E8%AF%AD%E8%AF%BE%28%E9%9D%9E%E6%B3%95%E8%AF%AD%E4%B8%93%E4%B8%9A%29/S1/) | — |
 | Licence 3 | [S5](S5/README.md) | 4 |
 | Licence 3 | [S6](S6/README.md) | 6（含 3 门选修 / dont 3 options）|
 | Master 1 | [S9（M1S1）](S9%28M1S1%29/README.md) | 5 |

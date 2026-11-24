@@ -27,9 +27,9 @@ Les documents sont rattachés à ce module par leur sujet : transport routier, I
 - [03 zh TRANSPORT INTERNATIONAL & INCOTERMS.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/03%20zh%20TRANSPORT%20INTERNATIONAL%20%26%20INCOTERMS.pdf)
 - [04 zh LOGISTIQUE du E-COMMERCE - 2023_1-45.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/04%20zh%20LOGISTIQUE%20du%20E-COMMERCE%20-%202023_1-45.pdf)
 - [05 zh SCHEMAS JEU FLUX E-LOGISTIQUE.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/05%20zh%20SCHEMAS%20JEU%20FLUX%20E-LOGISTIQUE.pdf)
-- [ENTREPOSAGE zh - Synthèse 2021.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/ENTREPOSAGE%20zh%20-%20Synthe%CC%80se%202021.pdf)
-- [ENTREPOSAGE zh2 - Synthèse 2021_90-145.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/ENTREPOSAGE%20zh2%20-%20Synthe%CC%80se%202021_90-145.pdf)
-- [ENTREPOSAGE zh3  - Synthèse 2021_145-199.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/ENTREPOSAGE%20zh3%20%20-%20Synthe%CC%80se%202021_145-199.pdf)
+- [ENTREPOSAGE zh - Synthèse 2021.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/ENTREPOSAGE%20zh%20-%20Synth%C3%A8se%202021.pdf)
+- [ENTREPOSAGE zh2 - Synthèse 2021_90-145.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/ENTREPOSAGE%20zh2%20-%20Synth%C3%A8se%202021_90-145.pdf)
+- [ENTREPOSAGE zh3  - Synthèse 2021_145-199.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/ENTREPOSAGE%20zh3%20%20-%20Synth%C3%A8se%202021_145-199.pdf)
 - [TRANSPORT ROUTIER zh.pdf](SC%20III%20-%20Transport%20et%20services%20logistiques/TRANSPORT%20ROUTIER%20zh.pdf)
 
 ## 企业战略与诊断 / Stratégie et diagnostic d’entreprise

@@ -12,50 +12,50 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 | 课程或通用资料 / Cours ou ressources communes | 文件数 / Fichiers |
 |---|---:|
-| [Enseigner la grammaire français](Enseigner%20la%20grammaire%20franc%CC%A7ais) | 34 |
+| [Enseigner la grammaire français](Enseigner%20la%20grammaire%20fran%C3%A7ais/) | 34 |
 | [IA&MachineLearning](IA%26MachineLearning) | 63 |
-| [Langue et littérature modernes d'oc](Langue%20et%20litte%CC%81rature%20modernes%20d%27oc) | 2 |
-| [Syntaxe générale](Syntaxe%20ge%CC%81ne%CC%81rale) | 5 |
+| [Langue et littérature modernes d'oc](Langue%20et%20litt%C3%A9rature%20modernes%20d%27oc/) | 2 |
+| [Syntaxe générale](Syntaxe%20g%C3%A9n%C3%A9rale/) | 5 |
 | [Typologie](Typologie) | 4 |
 
 ## 文件索引 / Index des fichiers
 
 ### Enseigner la grammaire français
 
-- [Inventaire_ONLINE_full.pdf](Enseigner%20la%20grammaire%20franc%CC%A7ais/Inventaire_ONLINE_full.pdf)
-- [Part1/1. Quest-ce que la grammaire.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/1.%20Quest-ce%20que%20la%20grammaire.docx)
-- [Part1/2. Pourquoi la grammaire - Point de vue historique.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/2.%20Pourquoi%20la%20grammaire%20-%20Point%20de%20vue%20historique.docx)
-- [Part1/3. Quelles finalités pour lenseignement de la grammaire aujourdhui.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/3.%20Quelles%20finalite%CC%81s%20pour%20lenseignement%20de%20la%20grammaire%20aujourdhui.docx)
-- [Part1/4. La grammaire et la langue.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/4.%20La%20grammaire%20et%20la%20langue.docx)
-- [Part1/5. Les exercices de grammaire (1).docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/5.%20Les%20exercices%20de%20grammaire%20%281%29.docx)
-- [Part1/5. Les exercices de grammaire (2).docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/5.%20Les%20exercices%20de%20grammaire%20%282%29.docx)
-- [Part1/6. Terminologie grammaticale.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/6.%20Terminologie%20grammaticale.docx)
-- [Part1/CC2- fiche objectifs.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/CC2-%20fiche%20objectifs.docx)
-- [Part1/Ladjectif_documents.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/Ladjectif_documents.docx)
-- [Part1/Terminologie grammaticale_documents.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/Terminologie%20grammaticale_documents.docx)
-- [Part1/grammaire cc1.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/grammaire%20cc1.docx)
-- [Part1/练习/Application du pronom.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/%E7%BB%83%E4%B9%A0/Application%20du%20pronom.docx)
-- [Part1/练习/Application_groupe syntaxique et attribut.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/%E7%BB%83%E4%B9%A0/Application_groupe%20syntaxique%20et%20attribut.docx)
-- [Part1/练习/Principales theories linguistiques du 20e siècle.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/%E7%BB%83%E4%B9%A0/Principales%20theories%20linguistiques%20du%2020e%20sie%CC%80cle.docx)
-- [Part1/问卷/Questionnaire sur la grammaire.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/%E9%97%AE%E5%8D%B7/Questionnaire%20sur%20la%20grammaire.docx)
-- [Part1/问卷/Résultat des questionnaires sur la grammaire—XU Leyan.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/%E9%97%AE%E5%8D%B7/Re%CC%81sultat%20des%20questionnaires%20sur%20la%20grammaire%E2%80%94XU%20Leyan.docx)
-- [Part1/问卷/Résultat des questionnaires sur la grammaire—XU Leyan.pdf](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part1/%E9%97%AE%E5%8D%B7/Re%CC%81sultat%20des%20questionnaires%20sur%20la%20grammaire%E2%80%94XU%20Leyan.pdf)
-- [Part2/CC1/FLE CC1-Exercise.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/CC1/FLE%20CC1-Exercise.docx)
-- [Part2/CC1/FLECC1复习Part 1&4docx.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/CC1/FLECC1%E5%A4%8D%E4%B9%A0Part%201%264docx.docx)
-- [Part2/CC1/FLECC1复习Part 2&3.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/CC1/FLECC1%E5%A4%8D%E4%B9%A0Part%202%263.docx)
-- [Part2/Entrainement au DST 2.pdf](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/Entrainement%20au%20DST%202.pdf)
-- [Part2/FLECC2复习理论部分.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/FLECC2%E5%A4%8D%E4%B9%A0%E7%90%86%E8%AE%BA%E9%83%A8%E5%88%86.docx)
-- [Part2/GramFle CC2模版.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/GramFle%20CC2%E6%A8%A1%E7%89%88.docx)
-- [Part2/GramFle Séance 3.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/GramFle%20Se%CC%81ance%203.docx)
-- [Part2/GramFle Séance 4.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/GramFle%20Se%CC%81ance%204.docx)
-- [Part2/GramFle Séance 5.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/GramFle%20Se%CC%81ance%205.docx)
-- [Part2/GramFle séance 2.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/GramFle%20se%CC%81ance%202.docx)
-- [Part2/P11练习3 CC2.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/P11%E7%BB%83%E4%B9%A03%20CC2.docx)
-- [Part2/Plan séances 1.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/Plan%20se%CC%81ances%201.docx)
-- [Part2/Séance 3 Exemples.docx](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/Se%CC%81ance%203%20Exemples.docx)
-- [Part2/sénario1.png](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/se%CC%81nario1.png)
-- [Part2/sénario2.png](Enseigner%20la%20grammaire%20franc%CC%A7ais/Part2/se%CC%81nario2.png)
-- [Programme Volet 2 Enseigner la grammaire.pdf](Enseigner%20la%20grammaire%20franc%CC%A7ais/Programme%20Volet%202%20Enseigner%20la%20grammaire.pdf)
+- [Inventaire_ONLINE_full.pdf](Enseigner%20la%20grammaire%20fran%C3%A7ais/Inventaire_ONLINE_full.pdf)
+- [Part1/1. Quest-ce que la grammaire.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/1.%20Quest-ce%20que%20la%20grammaire.docx)
+- [Part1/2. Pourquoi la grammaire - Point de vue historique.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/2.%20Pourquoi%20la%20grammaire%20-%20Point%20de%20vue%20historique.docx)
+- [Part1/3. Quelles finalités pour lenseignement de la grammaire aujourdhui.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/3.%20Quelles%20finalit%C3%A9s%20pour%20lenseignement%20de%20la%20grammaire%20aujourdhui.docx)
+- [Part1/4. La grammaire et la langue.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/4.%20La%20grammaire%20et%20la%20langue.docx)
+- [Part1/5. Les exercices de grammaire (1).docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/5.%20Les%20exercices%20de%20grammaire%20%281%29.docx)
+- [Part1/5. Les exercices de grammaire (2).docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/5.%20Les%20exercices%20de%20grammaire%20%282%29.docx)
+- [Part1/6. Terminologie grammaticale.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/6.%20Terminologie%20grammaticale.docx)
+- [Part1/CC2- fiche objectifs.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/CC2-%20fiche%20objectifs.docx)
+- [Part1/Ladjectif_documents.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/Ladjectif_documents.docx)
+- [Part1/Terminologie grammaticale_documents.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/Terminologie%20grammaticale_documents.docx)
+- [Part1/grammaire cc1.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/grammaire%20cc1.docx)
+- [Part1/练习/Application du pronom.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/%E7%BB%83%E4%B9%A0/Application%20du%20pronom.docx)
+- [Part1/练习/Application_groupe syntaxique et attribut.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/%E7%BB%83%E4%B9%A0/Application_groupe%20syntaxique%20et%20attribut.docx)
+- [Part1/练习/Principales theories linguistiques du 20e siècle.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/%E7%BB%83%E4%B9%A0/Principales%20theories%20linguistiques%20du%2020e%20si%C3%A8cle.docx)
+- [Part1/问卷/Questionnaire sur la grammaire.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/%E9%97%AE%E5%8D%B7/Questionnaire%20sur%20la%20grammaire.docx)
+- [Part1/问卷/Résultat des questionnaires sur la grammaire—XU Leyan.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/%E9%97%AE%E5%8D%B7/R%C3%A9sultat%20des%20questionnaires%20sur%20la%20grammaire%E2%80%94XU%20Leyan.docx)
+- [Part1/问卷/Résultat des questionnaires sur la grammaire—XU Leyan.pdf](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part1/%E9%97%AE%E5%8D%B7/R%C3%A9sultat%20des%20questionnaires%20sur%20la%20grammaire%E2%80%94XU%20Leyan.pdf)
+- [Part2/CC1/FLE CC1-Exercise.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/CC1/FLE%20CC1-Exercise.docx)
+- [Part2/CC1/FLECC1复习Part 1&4docx.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/CC1/FLECC1%E5%A4%8D%E4%B9%A0Part%201%264docx.docx)
+- [Part2/CC1/FLECC1复习Part 2&3.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/CC1/FLECC1%E5%A4%8D%E4%B9%A0Part%202%263.docx)
+- [Part2/Entrainement au DST 2.pdf](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/Entrainement%20au%20DST%202.pdf)
+- [Part2/FLECC2复习理论部分.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/FLECC2%E5%A4%8D%E4%B9%A0%E7%90%86%E8%AE%BA%E9%83%A8%E5%88%86.docx)
+- [Part2/GramFle CC2模版.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/GramFle%20CC2%E6%A8%A1%E7%89%88.docx)
+- [Part2/GramFle Séance 3.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/GramFle%20S%C3%A9ance%203.docx)
+- [Part2/GramFle Séance 4.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/GramFle%20S%C3%A9ance%204.docx)
+- [Part2/GramFle Séance 5.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/GramFle%20S%C3%A9ance%205.docx)
+- [Part2/GramFle séance 2.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/GramFle%20s%C3%A9ance%202.docx)
+- [Part2/P11练习3 CC2.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/P11%E7%BB%83%E4%B9%A03%20CC2.docx)
+- [Part2/Plan séances 1.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/Plan%20s%C3%A9ances%201.docx)
+- [Part2/Séance 3 Exemples.docx](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/S%C3%A9ance%203%20Exemples.docx)
+- [Part2/sénario1.png](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/s%C3%A9nario1.png)
+- [Part2/sénario2.png](Enseigner%20la%20grammaire%20fran%C3%A7ais/Part2/s%C3%A9nario2.png)
+- [Programme Volet 2 Enseigner la grammaire.pdf](Enseigner%20la%20grammaire%20fran%C3%A7ais/Programme%20Volet%202%20Enseigner%20la%20grammaire.pdf)
 
 ### IA&MachineLearning
 
@@ -125,16 +125,16 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 ### Langue et littérature modernes d'oc
 
-- [Langue d'oc CM.docx](Langue%20et%20litte%CC%81rature%20modernes%20d%27oc/Langue%20d%27oc%20CM.docx)
-- [Occitan考试复习.docx](Langue%20et%20litte%CC%81rature%20modernes%20d%27oc/Occitan%E8%80%83%E8%AF%95%E5%A4%8D%E4%B9%A0.docx)
+- [Langue d'oc CM.docx](Langue%20et%20litt%C3%A9rature%20modernes%20d%27oc/Langue%20d%27oc%20CM.docx)
+- [Occitan考试复习.docx](Langue%20et%20litt%C3%A9rature%20modernes%20d%27oc/Occitan%E8%80%83%E8%AF%95%E5%A4%8D%E4%B9%A0.docx)
 
 ### Syntaxe générale
 
-- [Syntaxe CM期末答题模板.docx](Syntaxe%20ge%CC%81ne%CC%81rale/Syntaxe%20CM%E6%9C%9F%E6%9C%AB%E7%AD%94%E9%A2%98%E6%A8%A1%E6%9D%BF.docx)
-- [SyntaxeCM期末复习.docx](Syntaxe%20ge%CC%81ne%CC%81rale/SyntaxeCM%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0.docx)
-- [syntaxe TD 笔记.docx](Syntaxe%20ge%CC%81ne%CC%81rale/syntaxe%20TD%20%E7%AC%94%E8%AE%B0.docx)
-- [syntaxeTDCC1.docx](Syntaxe%20ge%CC%81ne%CC%81rale/syntaxeTDCC1.docx)
-- [语法词表.png](Syntaxe%20ge%CC%81ne%CC%81rale/%E8%AF%AD%E6%B3%95%E8%AF%8D%E8%A1%A8.png)
+- [Syntaxe CM期末答题模板.docx](Syntaxe%20g%C3%A9n%C3%A9rale/Syntaxe%20CM%E6%9C%9F%E6%9C%AB%E7%AD%94%E9%A2%98%E6%A8%A1%E6%9D%BF.docx)
+- [SyntaxeCM期末复习.docx](Syntaxe%20g%C3%A9n%C3%A9rale/SyntaxeCM%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0.docx)
+- [syntaxe TD 笔记.docx](Syntaxe%20g%C3%A9n%C3%A9rale/syntaxe%20TD%20%E7%AC%94%E8%AE%B0.docx)
+- [syntaxeTDCC1.docx](Syntaxe%20g%C3%A9n%C3%A9rale/syntaxeTDCC1.docx)
+- [语法词表.png](Syntaxe%20g%C3%A9n%C3%A9rale/%E8%AF%AD%E6%B3%95%E8%AF%8D%E8%A1%A8.png)
 
 ### Typologie
 
@@ -147,7 +147,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 - 原目录明确 S5/S6 / Semestre indiqué dans le dossier source。
 
-原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
+原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
 
 Les chemins d’origine, les étiquettes de provenance et les empreintes des fichiers sont conservés dans cette table.
 

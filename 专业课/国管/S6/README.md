@@ -31,11 +31,11 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 ### Droit des sociétés
 
-- [Droit des Sociétés.zip](Droit%20des%20soci%C3%A9t%C3%A9s/Droit%20des%20Socie%CC%81te%CC%81s.zip)
+- [Droit des Sociétés.zip](Droit%20des%20soci%C3%A9t%C3%A9s/Droit%20des%20Soci%C3%A9t%C3%A9s.zip)
 
 ### Questions économiques internationales et européennes
 
-- [Question économique internationale.zip](Questions%20%C3%A9conomiques%20internationales%20et%20europ%C3%A9ennes/Question%20e%CC%81conomique%20internationale.zip)
+- [Question économique internationale.zip](Questions%20%C3%A9conomiques%20internationales%20et%20europ%C3%A9ennes/Question%20%C3%A9conomique%20internationale.zip)
 
 ### Sociologie politique de l’international
 
@@ -50,7 +50,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 - 课程标题与现有课表对应；压缩包保留原样 / Intitulé rapproché du programme ; archive conservée。
 - 课表、原学期目录及文件内容 / Programme, dossier source et contenu。
 
-原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
+原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
 
 Les chemins d’origine, les étiquettes de provenance et les empreintes des fichiers sont conservés dans cette table.
 

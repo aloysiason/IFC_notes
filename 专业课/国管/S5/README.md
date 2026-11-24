@@ -39,7 +39,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 ### Politiques de la diversité
 
-- [politique de la diversité(2).pdf](Politiques%20de%20la%20diversit%C3%A9/politique%20de%20la%20diversite%CC%81%282%29.pdf)
+- [politique de la diversité(2).pdf](Politiques%20de%20la%20diversit%C3%A9/politique%20de%20la%20diversit%C3%A9%282%29.pdf)
 
 ### _学期说明
 
@@ -54,7 +54,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 - 课程标题与现有课表对应；压缩包保留原样 / Intitulé rapproché du programme ; archive conservée。
 - 课表、原学期目录及文件内容 / Programme, dossier source et contenu。
 
-原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
+原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
 
 Les chemins d’origine, les étiquettes de provenance et les empreintes des fichiers sont conservés dans cette table.
 

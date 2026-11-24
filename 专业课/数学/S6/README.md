@@ -11,8 +11,8 @@ Sixième semestre de L3. Les mentions « obligatoire » et « option » provienn
 | 课程 / UE | 主要资料 / Ressources | 文件数 |
 |---|---|---:|
 | [LU3MA210 Analyse fonctionnelle](S6-必修课/LU3MA210%20Analyse%20fonctionnelle) | TD、Annales、往年资料 / TD, annales, années antérieures | 19 |
-| [LU3MA261 Calcul différentiel et optimisation](S6-必修课/LU3MA261%20Calcul%20différentiel%20et%20optimisation) | 多部讲义、TD、Annales / polycopiés, TD et annales | 41 |
-| [LU3MA290 Probabilités II](S6-必修课/LU3MA290%20Probabilités%20II) | TD、Annales、方法资料 / TD, annales et méthode | 30 |
+| [LU3MA261 Calcul différentiel et optimisation](S6-%E5%BF%85%E4%BF%AE%E8%AF%BE/LU3MA261%20Calcul%20diff%C3%A9rentiel%20et%20optimisation/) | 多部讲义、TD、Annales / polycopiés, TD et annales | 41 |
+| [LU3MA290 Probabilités II](S6-%E5%BF%85%E4%BF%AE%E8%AF%BE/LU3MA290%20Probabilit%C3%A9s%20II/) | TD、Annales、方法资料 / TD, annales et méthode | 30 |
 
 ## 选修 / Options
 

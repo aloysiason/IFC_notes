@@ -9,8 +9,8 @@ Deuxième semestre de M1. Les deux PDF auparavant à la racine ont été rattach
 | 课程 / UE | 主要资料 / Ressources principales | 文件数 |
 |---|---|---:|
 | [MU4MA026 Approximation des EDP](椭圆方程MU4MA026%20-%20Approximation%20des%20EDP) | 讲义、TD、TP / polycopiés, TD et TP | 18 |
-| [MU4MA066 Optimisation numérique et science des données](优化MU4MA066%20-%20Optimisation%20numérique%20et%20science%20des%20données) | 讲义、TD、TP、考试 / cours, TD, TP et examens | 33 |
-| [MU4MA074 Probabilités numériques et statistiques computationnelles](机器学MU4MA074%20-Probabilités%20numériques%20et%20statistiques%20computationnelles) | 课程、TD、TP、数据与代码 / cours, TD, TP, données et code | 45 |
+| [MU4MA066 Optimisation numérique et science des données](%E4%BC%98%E5%8C%96MU4MA066%20-%20Optimisation%20num%C3%A9rique%20et%20science%20des%20donn%C3%A9es/) | 讲义、TD、TP、考试 / cours, TD, TP et examens | 33 |
+| [MU4MA074 Probabilités numériques et statistiques computationnelles](%E6%9C%BA%E5%99%A8%E5%AD%A6MU4MA074%20-Probabilit%C3%A9s%20num%C3%A9riques%20et%20statistiques%20computationnelles/) | 课程、TD、TP、数据与代码 / cours, TD, TP, données et code | 45 |
 | [Statistique avancée](Statistique%20avancée) | CM 与 S2 资料 / CM et documents de S2 | 2 |
 
 课程文件夹中含代码、Notebook、数据及图片时，请保持其相对路径。资料文件的年份不自动代表当前课程版本。

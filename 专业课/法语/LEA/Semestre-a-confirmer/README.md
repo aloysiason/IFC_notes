@@ -19,7 +19,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 | [Droit des affaires](Droit%20des%20affaires) | 6 |
 | [affaires internationales](affaires%20internationales) | 6 |
 | [civilisation](civilisation) | 3 |
-| [économie](e%CC%81conomie) | 8 |
+| [économie](%C3%A9conomie/) | 8 |
 | [marketing](marketing) | 29 |
 
 ## 文件索引 / Index des fichiers
@@ -36,7 +36,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 ### affaires internationales
 
 - [Channels of distribution.pptx](affaires%20internationales/Channels%20of%20distribution.pptx)
-- [Exposés de civilisation française_Sujets 2.docx](affaires%20internationales/Expose%CC%81s%20de%20civilisation%20franc%CC%A7aise_Sujets%202.docx)
+- [Exposés de civilisation française_Sujets 2.docx](affaires%20internationales/Expos%C3%A9s%20de%20civilisation%20fran%C3%A7aise_Sujets%202.docx)
 - [Franchising.pptx](affaires%20internationales/Franchising.pptx)
 - [Product adaptation.pptx](affaires%20internationales/Product%20adaptation.pptx)
 - [cours2Trade shows and e-business 2.pptx](affaires%20internationales/cours2Trade%20shows%20and%20e-business%202.pptx)
@@ -44,20 +44,20 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 ### civilisation
 
-- [Civi_Séance 1.pptx](civilisation/Civi_Se%CC%81ance%201.pptx)
-- [Civi_Séance 2.pptx](civilisation/Civi_Se%CC%81ance%202.pptx)
-- [Civi_Séance 3_XIXe-XXe.pptx](civilisation/Civi_Se%CC%81ance%203_XIXe-XXe.pptx)
+- [Civi_Séance 1.pptx](civilisation/Civi_S%C3%A9ance%201.pptx)
+- [Civi_Séance 2.pptx](civilisation/Civi_S%C3%A9ance%202.pptx)
+- [Civi_Séance 3_XIXe-XXe.pptx](civilisation/Civi_S%C3%A9ance%203_XIXe-XXe.pptx)
 
 ### économie
 
-- [Dossier 2 - 2025.pdf](e%CC%81conomie/Dossier%202%20-%202025.pdf)
-- [Dossier 3 - pdf.pdf](e%CC%81conomie/Dossier%203%20-%20pdf.pdf)
-- [Linvestissement Cours PP.pptx](e%CC%81conomie/Linvestissement%20Cours%20PP.pptx)
-- [PP du cours innovation 2026.pptx](e%CC%81conomie/PP%20du%20cours%20innovation%202026.pptx)
-- [TD Investissement 2026-1.pdf](e%CC%81conomie/TD%20Investissement%202026-1.pdf)
-- [TD innovation 2026.pdf](e%CC%81conomie/TD%20innovation%202026.pdf)
-- [suite du cours travail.docx](e%CC%81conomie/suite%20du%20cours%20travail.docx)
-- [td.pdf](e%CC%81conomie/td.pdf)
+- [Dossier 2 - 2025.pdf](%C3%A9conomie/Dossier%202%20-%202025.pdf)
+- [Dossier 3 - pdf.pdf](%C3%A9conomie/Dossier%203%20-%20pdf.pdf)
+- [Linvestissement Cours PP.pptx](%C3%A9conomie/Linvestissement%20Cours%20PP.pptx)
+- [PP du cours innovation 2026.pptx](%C3%A9conomie/PP%20du%20cours%20innovation%202026.pptx)
+- [TD Investissement 2026-1.pdf](%C3%A9conomie/TD%20Investissement%202026-1.pdf)
+- [TD innovation 2026.pdf](%C3%A9conomie/TD%20innovation%202026.pdf)
+- [suite du cours travail.docx](%C3%A9conomie/suite%20du%20cours%20travail.docx)
+- [td.pdf](%C3%A9conomie/td.pdf)
 
 ### marketing
 
@@ -95,7 +95,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 - 商法：CM 正文标 S5，公司法配套文件按主题归类；S6 商法 CM 及商业合同、商事租赁按主题归类；其余待确认 / Droit : S5 explicite dans le CM, documents associés par thème ; S6 et supports de droit commercial ; autres semestres à confirmer。
 
-原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
+原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
 
 Les chemins d’origine, les étiquettes de provenance et les empreintes des fichiers sont conservés dans cette table.
 

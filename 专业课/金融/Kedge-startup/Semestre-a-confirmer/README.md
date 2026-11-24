@@ -18,7 +18,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 |---|---:|
 | [Business Model](Business%20Model) | 1 |
 | [Business Plan](Business%20Plan) | 1 |
-| [De l'idée au projet期末真题](De%20l%27ide%CC%81e%20au%20projet%E6%9C%9F%E6%9C%AB%E7%9C%9F%E9%A2%98) | 3 |
+| [De l'idée au projet期末真题](De%20l%27id%C3%A9e%20au%20projet%E6%9C%9F%E6%9C%AB%E7%9C%9F%E9%A2%98/) | 3 |
 | [Ethical Finance](Ethical%20Finance) | 1 |
 | [FLE](FLE) | 1 |
 | [Memoire interculturel复习主题](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98) | 14 |
@@ -39,9 +39,9 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 ### De l'idée au projet期末真题
 
-- [Examen 2025 2026 Sujet 7 Horace.pdf](De%20l%27ide%CC%81e%20au%20projet%E6%9C%9F%E6%9C%AB%E7%9C%9F%E9%A2%98/Examen%202025%202026%20Sujet%207%20Horace.pdf)
-- [Examen Partie 3 Activité Examen 2025 2026.docx](De%20l%27ide%CC%81e%20au%20projet%E6%9C%9F%E6%9C%AB%E7%9C%9F%E9%A2%98/Examen%20Partie%203%20Activite%CC%81%20Examen%202025%202026.docx)
-- [Examen Questions du Cas 2025 2026.docx](De%20l%27ide%CC%81e%20au%20projet%E6%9C%9F%E6%9C%AB%E7%9C%9F%E9%A2%98/Examen%20Questions%20du%20Cas%202025%202026.docx)
+- [Examen 2025 2026 Sujet 7 Horace.pdf](De%20l%27id%C3%A9e%20au%20projet%E6%9C%9F%E6%9C%AB%E7%9C%9F%E9%A2%98/Examen%202025%202026%20Sujet%207%20Horace.pdf)
+- [Examen Partie 3 Activité Examen 2025 2026.docx](De%20l%27id%C3%A9e%20au%20projet%E6%9C%9F%E6%9C%AB%E7%9C%9F%E9%A2%98/Examen%20Partie%203%20Activit%C3%A9%20Examen%202025%202026.docx)
+- [Examen Questions du Cas 2025 2026.docx](De%20l%27id%C3%A9e%20au%20projet%E6%9C%9F%E6%9C%AB%E7%9C%9F%E9%A2%98/Examen%20Questions%20du%20Cas%202025%202026.docx)
 
 ### Ethical Finance
 
@@ -56,17 +56,17 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 - [ Le Travail en france.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/%20Le%20Travail%20en%20france.pdf)
 - [France Sport.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/France%20Sport.pdf)
 - [Module  Festivals en France.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%20%20Festivals%20en%20France.pdf)
-- [Module - Les marques françaises dans votre vie quotidienne.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%20-%20Les%20marques%20franc%CC%A7aises%20dans%20votre%20vie%20quotidienne.pdf)
-- [Module 6 - Produit typique de la gastronomie française.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%206%20-%20Produit%20typique%20de%20la%20gastronomie%20franc%CC%A7aise.pdf)
-- [Module 7 -  D’analysedébat  La France, « seul pays de la gastronomie »  .pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%207%20-%20%20D%E2%80%99analysede%CC%81bat%20%20La%20France%2C%20%C2%AB%20seul%20pays%20de%20la%20gastronomie%20%C2%BB%20%20.pdf)
+- [Module - Les marques françaises dans votre vie quotidienne.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%20-%20Les%20marques%20fran%C3%A7aises%20dans%20votre%20vie%20quotidienne.pdf)
+- [Module 6 - Produit typique de la gastronomie française.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%206%20-%20Produit%20typique%20de%20la%20gastronomie%20fran%C3%A7aise.pdf)
+- [Module 7 -  D’analysedébat  La France, « seul pays de la gastronomie »  .pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%207%20-%20%20D%E2%80%99analysed%C3%A9bat%20%20La%20France%2C%20%C2%AB%20seul%20pays%20de%20la%20gastronomie%20%C2%BB%20%20.pdf)
 - [Module Les Influenceurs.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%20Les%20Influenceurs.pdf)
 - [Module Luxe.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%20Luxe.pdf)
-- [Module Média français .pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%20Me%CC%81dia%20franc%CC%A7ais%20.pdf)
-- [Oral révision documents - Ateliers Interculturels/Module  - Ville d'étude Bordeaux:Marseille.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20re%CC%81vision%20documents%20-%20Ateliers%20Interculturels/Module%20%20-%20Ville%20d%27e%CC%81tude%20Bordeaux%3AMarseille.pdf)
-- [Oral révision documents - Ateliers Interculturels/Module - E commerce france.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20re%CC%81vision%20documents%20-%20Ateliers%20Interculturels/Module%20-%20E%20commerce%20france.pdf)
-- [Oral révision documents - Ateliers Interculturels/Module - Les réseau sociaux.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20re%CC%81vision%20documents%20-%20Ateliers%20Interculturels/Module%20-%20Les%20re%CC%81seau%20sociaux.pdf)
-- [Oral révision documents - Ateliers Interculturels/Module - Luxe .pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20re%CC%81vision%20documents%20-%20Ateliers%20Interculturels/Module%20-%20Luxe%20.pdf)
-- [Oral révision documents - Ateliers Interculturels/Module- Système administrative français.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20re%CC%81vision%20documents%20-%20Ateliers%20Interculturels/Module-%20Syste%CC%80me%20administrative%20franc%CC%A7ais.pdf)
+- [Module Média français .pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Module%20M%C3%A9dia%20fran%C3%A7ais%20.pdf)
+- [Oral révision documents - Ateliers Interculturels/Module  - Ville d'étude Bordeaux:Marseille.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20r%C3%A9vision%20documents%20-%20Ateliers%20Interculturels/Module%20%20-%20Ville%20d%27%C3%A9tude%20Bordeaux%3AMarseille.pdf)
+- [Oral révision documents - Ateliers Interculturels/Module - E commerce france.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20r%C3%A9vision%20documents%20-%20Ateliers%20Interculturels/Module%20-%20E%20commerce%20france.pdf)
+- [Oral révision documents - Ateliers Interculturels/Module - Les réseau sociaux.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20r%C3%A9vision%20documents%20-%20Ateliers%20Interculturels/Module%20-%20Les%20r%C3%A9seau%20sociaux.pdf)
+- [Oral révision documents - Ateliers Interculturels/Module - Luxe .pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20r%C3%A9vision%20documents%20-%20Ateliers%20Interculturels/Module%20-%20Luxe%20.pdf)
+- [Oral révision documents - Ateliers Interculturels/Module- Système administrative français.pdf](Memoire%20interculturel%E5%A4%8D%E4%B9%A0%E4%B8%BB%E9%A2%98/Oral%20r%C3%A9vision%20documents%20-%20Ateliers%20Interculturels/Module-%20Syst%C3%A8me%20administrative%20fran%C3%A7ais.pdf)
 
 ### Simulation de gestion
 
@@ -76,7 +76,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 
 ### Stratégie et diagnostic d’entreprise
 
-- [Stratégie et diagnostic d'entreprise平时作业示例（参考封面、排版与引用格式）.pdf](Strat%C3%A9gie%20et%20diagnostic%20d%E2%80%99entreprise/Strate%CC%81gie%20et%20diagnostic%20d%27entreprise%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A%E7%A4%BA%E4%BE%8B%EF%BC%88%E5%8F%82%E8%80%83%E5%B0%81%E9%9D%A2%E3%80%81%E6%8E%92%E7%89%88%E4%B8%8E%E5%BC%95%E7%94%A8%E6%A0%BC%E5%BC%8F%EF%BC%89.pdf)
+- [Stratégie et diagnostic d'entreprise平时作业示例（参考封面、排版与引用格式）.pdf](Strat%C3%A9gie%20et%20diagnostic%20d%E2%80%99entreprise/Strat%C3%A9gie%20et%20diagnostic%20d%27entreprise%E5%B9%B3%E6%97%B6%E4%BD%9C%E4%B8%9A%E7%A4%BA%E4%BE%8B%EF%BC%88%E5%8F%82%E8%80%83%E5%B0%81%E9%9D%A2%E3%80%81%E6%8E%92%E7%89%88%E4%B8%8E%E5%BC%95%E7%94%A8%E6%A0%BC%E5%BC%8F%EF%BC%89.pdf)
 
 ### 计量备考
 
@@ -94,7 +94,7 @@ Cette page recense les ressources disponibles, sans constituer une maquette comp
 - Kedge-startup；FLE 按大三第一、二学期对应 S5/S6，其余待确认 / FLE : deux semestres de L3 ; autres affectations à confirmer。
 - Kedge-startup；课程标题明确，学期待确认 / Kedge-startup ; semestre à confirmer。
 
-原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
+原路径、来源目录标签和内容校验值见[文件迁移清单 / Table de correspondance](../../../../_%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95/%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.csv)。
 
 Les chemins d’origine, les étiquettes de provenance et les empreintes des fichiers sont conservés dans cette table.
 

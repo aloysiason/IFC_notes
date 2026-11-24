@@ -33,39 +33,39 @@ IFC_notes · 中法学院学习资料开源项目
 
 ## 学期导航 / Navigation par semestre
 
+[专业课总览 / Cours de spécialité](%E4%B8%93%E4%B8%9A%E8%AF%BE/README.md) · [高等数学 / Mathématiques](%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/README.md) · [法语课（非法语专业） / Français pour les autres filières](%E6%B3%95%E8%AF%AD%E8%AF%BE%28%E9%9D%9E%E6%B3%95%E8%AF%AD%E4%B8%93%E4%B8%9A%29/README.md)
+
 | 专业 / Filière | 方向 / Parcours | 学期 / Semestre |
 |---|---|---|
-| 人管 | RH | [S1](%E4%BA%BA%E7%AE%A1/S1/README.md) |
-| 人管 | RH | [S5](%E4%BA%BA%E7%AE%A1/S5/README.md) |
-| 人管 | RH | [S6](%E4%BA%BA%E7%AE%A1/S6/README.md) |
-| 国管 | CAI | [S1](%E5%9B%BD%E7%AE%A1/S1/README.md) |
-| 国管 | CAI | [S5](%E5%9B%BD%E7%AE%A1/S5/README.md) |
-| 国管 | CAI | [S6](%E5%9B%BD%E7%AE%A1/S6/README.md) |
-| 法语 | LF | [S5](%E6%B3%95%E8%AF%AD/LF/S5/README.md) |
-| 法语 | LF | [S6](%E6%B3%95%E8%AF%AD/LF/S6/README.md) |
-| 法语 | LEA | [S5](%E6%B3%95%E8%AF%AD/LEA/S5/README.md) |
-| 法语 | LEA | [S6](%E6%B3%95%E8%AF%AD/LEA/S6/README.md) |
-| 法语 | LEA | [Semestre-a-confirmer](%E6%B3%95%E8%AF%AD/LEA/Semestre-a-confirmer/README.md) |
-| 金融 | — | [S1](%E9%87%91%E8%9E%8D/S1/README.md) |
-| 金融 | — | [S2](%E9%87%91%E8%9E%8D/S2/README.md) |
-| 金融 | — | [S3](%E9%87%91%E8%9E%8D/S3/README.md) |
-| 金融 | — | [S4](%E9%87%91%E8%9E%8D/S4/README.md) |
-| 金融 | Kedge-startup | [S5](%E9%87%91%E8%9E%8D/Kedge-startup/S5/README.md) |
-| 金融 | Kedge-startup | [S6](%E9%87%91%E8%9E%8D/Kedge-startup/S6/README.md) |
-| 金融 | Kedge-startup | [Semestre-a-confirmer](%E9%87%91%E8%9E%8D/Kedge-startup/Semestre-a-confirmer/README.md) |
-| 金融 | marseille-banque | [S5](%E9%87%91%E8%9E%8D/marseille-banque/S5/README.md) |
-| 金融 | marseille-banque | [S6](%E9%87%91%E8%9E%8D/marseille-banque/S6/README.md) |
-| 金融 | supply-chain | [S5](%E9%87%91%E8%9E%8D/supply-chain/S5/README.md) |
-| 金融 | supply-chain | [S6](%E9%87%91%E8%9E%8D/supply-chain/S6/README.md) |
-| 传播 | — | [S1](%E4%BC%A0%E6%92%AD/S1/README.md) |
-| 传播 | LMC | [Semestre-a-confirmer](%E4%BC%A0%E6%92%AD/LMC/Semestre-a-confirmer/README.md) |
-| 传播 | Infocom | [S5](%E4%BC%A0%E6%92%AD/Infocom/S5/README.md) |
-| 传播 | Infocom | [S6](%E4%BC%A0%E6%92%AD/Infocom/S6/README.md) |
-| 数学 | — | [S1](%E6%95%B0%E5%AD%A6/S1/README.md) |
-| 数学 | — | [S5](%E6%95%B0%E5%AD%A6/S5/README.md) |
-| 数学 | — | [S6](%E6%95%B0%E5%AD%A6/S6/README.md) |
-| 数学 | — | [S9（M1S1）](%E6%95%B0%E5%AD%A6/S9%28M1S1%29/README.md) |
-| 数学 | — | [S10（M1S2）](%E6%95%B0%E5%AD%A6/S10%28M1S2%29/README.md) |
+| 人管 | RH | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BA%BA%E7%AE%A1/S5/README.md) |
+| 人管 | RH | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BA%BA%E7%AE%A1/S6/README.md) |
+| 国管 | CAI | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E5%9B%BD%E7%AE%A1/S5/README.md) |
+| 国管 | CAI | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E5%9B%BD%E7%AE%A1/S6/README.md) |
+| 法语 | LF | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%B3%95%E8%AF%AD/LF/S5/README.md) |
+| 法语 | LF | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%B3%95%E8%AF%AD/LF/S6/README.md) |
+| 法语 | LEA | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%B3%95%E8%AF%AD/LEA/S5/README.md) |
+| 法语 | LEA | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%B3%95%E8%AF%AD/LEA/S6/README.md) |
+| 法语 | LEA | [Semestre-a-confirmer](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%B3%95%E8%AF%AD/LEA/Semestre-a-confirmer/README.md) |
+| 金融 | — | [S1](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/S1/README.md) |
+| 金融 | — | [S2](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/S2/README.md) |
+| 金融 | — | [S3](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/S3/README.md) |
+| 金融 | — | [S4](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/S4/README.md) |
+| 金融 | Kedge-startup | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/Kedge-startup/S5/README.md) |
+| 金融 | Kedge-startup | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/Kedge-startup/S6/README.md) |
+| 金融 | Kedge-startup | [Semestre-a-confirmer](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/Kedge-startup/Semestre-a-confirmer/README.md) |
+| 金融 | marseille-banque | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/marseille-banque/S5/README.md) |
+| 金融 | marseille-banque | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/marseille-banque/S6/README.md) |
+| 金融 | supply-chain | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/supply-chain/S5/README.md) |
+| 金融 | supply-chain | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E9%87%91%E8%9E%8D/supply-chain/S6/README.md) |
+| 传播 | LMC | [Semestre-a-confirmer](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BC%A0%E6%92%AD/LMC/Semestre-a-confirmer/README.md) |
+| 传播 | Infocom | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BC%A0%E6%92%AD/Infocom/S5/README.md) |
+| 传播 | Infocom | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E4%BC%A0%E6%92%AD/Infocom/S6/README.md) |
+| 数学 | — | [S5](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%95%B0%E5%AD%A6/S5/README.md) |
+| 数学 | — | [S6](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%95%B0%E5%AD%A6/S6/README.md) |
+| 数学 | — | [S9（M1S1）](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%95%B0%E5%AD%A6/S9%28M1S1%29/README.md) |
+| 数学 | — | [S10（M1S2）](%E4%B8%93%E4%B8%9A%E8%AF%BE/%E6%95%B0%E5%AD%A6/S10%28M1S2%29/README.md) |
+
+公共法语 / Français pour les autres filières · [S1](%E6%B3%95%E8%AF%AD%E8%AF%BE%28%E9%9D%9E%E6%B3%95%E8%AF%AD%E4%B8%93%E4%B8%9A%29/S1/) · [S3–S4](%E6%B3%95%E8%AF%AD%E8%AF%BE%28%E9%9D%9E%E6%B3%95%E8%AF%AD%E4%B8%93%E4%B8%9A%29/S3-S4/)
 
 ## 版权与使用声明 / Droits d’auteur et conditions d’utilisation
 
